@@ -1,0 +1,190 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-align:center;
+}
+/*div{
+	border:1px solid black;
+}
+nav#pokedex{
+	width:100%;
+}*/
+
+
+body{
+	background-color:gray;
+}
+div.dentropokedex{
+	width:1179.97px ;
+	height:AUTO+500PX;
+	margin:100px 0 0 0;
+	display:inline-block;
+	text-align:center;
+	background-color:#ECF3EA;
+}
+ul#tabladigi{
+	display:inline-block;
+	text-align:center;
+}
+img.digi{
+	width:100%;
+	height:246.19px;
+}
+div.icon{	
+	width:100%;
+	height:50px;
+	margin-top:37px;
+	border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-bottom: 50px solid white;
+}
+div.name{
+	text-align:center;	
+	color:black;
+	width:100%;
+	text-align:left;
+	word-spacing:10000px;
+	font-family:'Baloo', cursive;
+	font-size:32px;
+}
+.nivel,.tipo,.atri,.fam{
+	font-size:10PX;
+	width:63px;
+	float:left;
+}
+.duno,.ddos,.dtres,.dcua{
+	display:none;
+	width:63px;
+	position:absolute;
+	background-color:#7B7F0D ;
+	margin-top:280px ;
+}
+div.duno{
+	text-align:justify;
+	width:auto;
+	height:auto;
+	margin-left:0px;
+}
+div.ddos{
+	text-align:justify;
+	width:auto;
+	height:auto;
+	margin-left:63px;
+}
+div.dtres{
+	text-align:justify;
+	width:auto;
+	height:auto;
+	margin-left:126px;
+}
+div.dcua{
+	text-align:justify;
+	width:auto;
+	height:auto;
+	margin-left:189px;
+}
+img.icon{
+	width:100%;
+}
+li.mostdigi{
+	border-radius:20px 20px 0 0;
+	border:transparent;
+	margin:250px 20px 20px 20px;
+	width:253.69px;
+	height:342.92px;
+	background-color:#C8C8C8 ;	
+}
+li.mostdigi:hover{
+	-webkit-animation: tiembla 1s;
+}
+@-webkit-keyframes tiembla{
+	0%  { -webkit-transform:rotateZ(-1deg); }
+	1% { -webkit-transform:rotateZ( 0deg) scale(.8); }
+	1%{ -webkit-transform:rotateZ( 1deg); }
+}
+div.infomas{
+	display: none;
+ 	 color: black;
+ 	 font-family: 'Orbitron', sans-serif;
+ 	 font-size:12px;
+}
+span.infomas{
+	position:none;
+	color:black;
+	 font-family: 'Lobster', cursive;
+	 font-size:20px;
+	 height:auto;
+}
+a.infomas:hover{
+	color:gray;
+	 text-decoration: none;
+	  list-style: none;
+}
+a.infomas{
+		position:none;
+	  display: block;
+	 text-decoration: none;
+	  list-style: none;
+}
+nav#pag_poke{
+	display:inline-block;
+	text-align:center;
+}
+div#menu{
+	width: 100%;
+	height:	74px;
+	-webkit-box-shadow: inset 0px 0px 111px -31px rgba(59,59,59,1);
+    -moz-box-shadow: inset 0px 0px 111px -31px rgba(59,59,59,1);
+    box-shadow: inset 0px 0px 111px -31px rgba(59,59,59,1);
+}
+
+div#fixedmenu{
+	width:100%;
+	position:fixed;	
+}
+li{
+	padding:10px 0 0 0;
+	color:white;
+	background-color:#2D2F27;
+	margin-bottom:0;
+	float:left;
+	width:122.84px;
+	height:57px;
+	list-style:none;
+	border-right:1px solid black;
+	border-left:1px solid black;
+}
+div img{
+	width:100px;
+	height:70px;
+}
+ a{
+	text-decoration: none;
+    list-style: none;
+}
+li#uno:hover{
+	background-color:#9EA291 ;
+}
+li#dos:hover{
+	background-color:#CD2409 ;
+}
+li#tres:hover{
+	background-color:#E57430 ;
+}
+li#cuatro:hover{
+	background-color:#E9CC29 ;
+}
+li#cinco:hover{
+	background-color:skyblue ;
+}
+li#seis:hover{
+	background-color:#075283 ;
+}
+li#siete:hover{
+	background-color:#3B922D ;
+}
+.desplegar{
+	position:absolute;
+	margin-top:2200px;
+	margin-left:-50%;
+}
